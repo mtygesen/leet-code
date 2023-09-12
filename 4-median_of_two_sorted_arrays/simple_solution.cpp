@@ -10,6 +10,6 @@ public:
 
         int n = v.size();
         
-        return  n % 2 ? v[n / 2] : (v[(n - 1) / 2] + v[n / 2]) / 2.0;
+        return n % 2 ? v[n / 2] : (v[(n - 1) / 2] + v[n / 2]) / 2.0;
     }
 };
