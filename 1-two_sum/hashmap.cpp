@@ -2,7 +2,7 @@
 // Space Complexity: O(n)
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(std::vector<int>& nums, int target) {
         std::unordered_map<int, int> mp;
 
         for (int i = 0; i < nums.size(); ++i) {
