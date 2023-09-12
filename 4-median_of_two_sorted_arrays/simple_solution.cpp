@@ -2,7 +2,7 @@
 // Space Complexity: O(n + m)
 class Solution {
 public:
-    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+    double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) {
         std::vector<int> v = nums1;
         v.insert(v.end(), nums2.begin(), nums2.end());
         
