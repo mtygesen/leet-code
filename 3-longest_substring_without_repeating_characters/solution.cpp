@@ -2,7 +2,7 @@
 // Space Complexity: O(n)
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
+    int lengthOfLongestSubstring(std::string s) {
         unordered_map<char, int> mp;
         
         int max = 0;
